@@ -18,7 +18,7 @@ from ward.core.github_api import (
 
 
 def test_parse_pr_ref_happy_path():
-    assert parse_pr_ref("sonofg0tham/ward#42") == ("sonofg0tham", "ward", 42)
+    assert parse_pr_ref("craigmccart/ward#42") == ("craigmccart", "ward", 42)
 
 
 def test_parse_pr_ref_allows_dots_and_underscores_in_repo():

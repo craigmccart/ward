@@ -31,7 +31,7 @@ from ward.core.rules import load_rule_pack
 
 ZWSP = "​"
 
-# Lifted from the body of sonofg0tham/ward#10 as GitHub served it. The U+200B
+# Lifted from the body of craigmccart/ward#10 as GitHub served it. The U+200B
 # after each `<code>@` is Dependabot's, not ours.
 DEPENDABOT_BODY = f"""Bumps [actions/setup-python](https://github.com/actions/setup-python) from 6.3.0 to 7.0.0.
 <details>

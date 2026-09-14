@@ -32,7 +32,7 @@ build configuration - 0.3.1's fixes reach PyPI here.
 
   v0.3.1 therefore built green, created its GitHub Release, and died at the
   upload - leaving a tag whose `action.yml` required `ward-scanner>=0.3.1` from
-  a PyPI that did not have it. Anyone pinning `sonofg0tham/ward@v0.3.1` would
+  a PyPI that did not have it. Anyone pinning `craigmccart/ward@v0.3.1` would
   have failed at the install step. Nothing was wrong with the code; the build
   was simply not pinned, which for a security tool is its own defect.
 
@@ -104,7 +104,7 @@ compare link because there is no longer a `v0.3.1` tag to compare against.
   job summary and the format defaults, in the existing entrypoint tests.
 
 - **`tests/test_dependabot_is_not_an_attacker.py`** - the real body of
-  `sonofg0tham/ward#10`, plus the inert positions that must stay silent and the
+  `craigmccart/ward#10`, plus the inert positions that must stay silent and the
   word-splitting and run cases that must not.
 
 ## [0.3.0] - 2026-08-07

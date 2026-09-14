@@ -104,7 +104,7 @@ Ward is on PyPI (`pip install ward-scanner`), and the source is public at [githu
 The GitHub Action is the fastest way to see it work, and it is listed on the [GitHub Marketplace](https://github.com/marketplace/actions/ward-pre-agent-metadata-scanner):
 
 ```yaml
-- uses: sonofg0tham/ward@v0.3.2
+- uses: craigmccart/ward@v0.3.2
   with:
     fail-on: high
 ```

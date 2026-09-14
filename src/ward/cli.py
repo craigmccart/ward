@@ -1206,7 +1206,7 @@ def scan_local(
 
 @app.command("scan-pr")
 def scan_pr(
-    ref: Annotated[str, typer.Argument(help="PR reference, e.g. 'sonofg0tham/ward#42'.")],
+    ref: Annotated[str, typer.Argument(help="PR reference, e.g. 'craigmccart/ward#42'.")],
     fmt: OutputFormat = "pretty",
     threshold: ThresholdOption = "low",
     fail_on: FailOnOption = "high",

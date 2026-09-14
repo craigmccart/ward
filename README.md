@@ -1,13 +1,13 @@
 <!-- ward-allow-file: io.*, role.*, exf.*, tool.*, ait.*, obf.* -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sonofg0tham/ward/main/assets/ward-logo-dark.svg">
-  <img src="https://raw.githubusercontent.com/Sonofg0tham/ward/main/assets/ward-logo-light.svg" alt="Ward" height="56">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/craigmccart/ward/main/assets/ward-logo-dark.svg">
+  <img src="https://raw.githubusercontent.com/craigmccart/ward/main/assets/ward-logo-light.svg" alt="Ward" height="56">
 </picture>
 
 [![PyPI](https://img.shields.io/pypi/v/ward-scanner?style=flat-square&color=E4642A&label=PyPI)](https://pypi.org/project/ward-scanner/)
-[![CI](https://img.shields.io/github/actions/workflow/status/Sonofg0tham/ward/ci.yml?style=flat-square&label=CI)](https://github.com/craigmccart/ward/actions/workflows/ci.yml)
-[![Licence](https://img.shields.io/github/license/Sonofg0tham/ward?style=flat-square&label=licence)](LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/craigmccart/ward/ci.yml?style=flat-square&label=CI)](https://github.com/craigmccart/ward/actions/workflows/ci.yml)
+[![Licence](https://img.shields.io/github/license/craigmccart/ward?style=flat-square&label=licence)](LICENSE)
 [![Marketplace](https://img.shields.io/badge/GitHub_Marketplace-Ward-E4642A?style=flat-square)](https://github.com/marketplace/actions/ward-pre-agent-metadata-scanner)
 
 > Pre-agent metadata scanner. Catches prompt injection in branch names,
@@ -135,7 +135,7 @@ ward version
 
 ```bash
 export GITHUB_TOKEN=ghp_...
-ward scan-pr sonofg0tham/ward#42
+ward scan-pr craigmccart/ward#42
 ```
 
 Reads the PR title, body, head branch name, commit messages, and changed
@@ -346,7 +346,7 @@ permissions:
   security-events: write   # for the SARIF upload, which is on by default
 
 steps:
-  - uses: sonofg0tham/ward@v0.3.2
+  - uses: craigmccart/ward@v0.3.2
     with:
       fail-on: high
 ```
@@ -368,7 +368,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: sonofg0tham/ward@v0.3.2
+      - uses: craigmccart/ward@v0.3.2
         with:
           fail-on: high
           format: sarif

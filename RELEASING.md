@@ -25,7 +25,7 @@ These steps need your PyPI login and can't be scripted from here.
 
 3. **Flip the gate on GitHub** (this part I can run for you):
    ```bash
-   gh variable set PYPI_READY --body true -R Sonofg0tham/ward
+   gh variable set PYPI_READY --body true -R craigmccart/ward
    ```
    Until this variable is `true`, the `publish-pypi` job is skipped.
 
@@ -39,7 +39,7 @@ Once the trusted publisher exists and `PYPI_READY=true`:
    - `src/ward/__init__.py` → `__version__`
    - `action.yml` → the `ward-scanner>=X.Y.Z,<MAJOR.MINOR+1` pip pin
    - `.pre-commit-hooks.yaml` → the `rev:` in the usage comment
-   - `README.md` → `uses: sonofg0tham/ward@vX.Y.Z` and the pre-commit `rev:`
+   - `README.md` → `uses: craigmccart/ward@vX.Y.Z` and the pre-commit `rev:`
 2. Move the `## [Unreleased]` entries in `CHANGELOG.md` under a new
    `## [X.Y.Z] - YYYY-MM-DD` heading and add the compare link at the
    bottom. The same test asserts a section exists for the current version.
@@ -79,7 +79,7 @@ requires it there). To list it:
 2. Tick **"Publish this Action to the GitHub Marketplace"**.
 3. Pick a category (Security is the right one) and accept the terms.
 
-Users then reference it as `uses: sonofg0tham/ward@vX.Y.Z`.
+Users then reference it as `uses: craigmccart/ward@vX.Y.Z`.
 
 ## Notes
 

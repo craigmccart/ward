@@ -125,7 +125,7 @@ jobs:
         uses: ./
         with:
           pr: "10"
-          repository: sonofg0tham/ward
+          repository: craigmccart/ward
           format: json
           upload-sarif: "false"
 

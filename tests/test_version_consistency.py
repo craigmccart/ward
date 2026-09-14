@@ -75,7 +75,7 @@ def test_pre_commit_hooks_example_uses_the_current_tag():
 
 def test_readme_pins_the_current_tag():
     text = _read("README.md")
-    pins = re.findall(r"sonofg0tham/ward@v(\d+\.\d+\.\d+)", text)
+    pins = re.findall(r"craigmccart/ward@v(\d+\.\d+\.\d+)", text)
     pins += re.findall(r"rev:\s*v(\d+\.\d+\.\d+)", text)
     assert pins, "README documents no pinned version"
     for pin in pins:
@@ -97,7 +97,7 @@ def test_no_doc_shows_a_stale_copy_pasteable_pin():
         if not path.is_file() or path.name in _PIN_EXEMPT:
             continue
         text = path.read_text(encoding="utf-8")
-        for pin in re.findall(r"sonofg0tham/ward@v(\d+\.\d+\.\d+)", text):
+        for pin in re.findall(r"craigmccart/ward@v(\d+\.\d+\.\d+)", text):
             checked += 1
             rel = path.relative_to(REPO_ROOT).as_posix()
             assert pin == __version__, (
