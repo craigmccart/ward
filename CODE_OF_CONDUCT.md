@@ -31,7 +31,7 @@ permission to test is out of bounds and will get you removed.
 ## Reporting
 
 Report conduct problems privately to the maintainer through
-[GitHub Security Advisories](https://github.com/Sonofg0tham/ward/security/advisories/new)
+[GitHub Security Advisories](https://github.com/craigmccart/ward/security/advisories/new)
 or by opening a private thread via the repository's contact options. Reports
 are handled confidentially.
 

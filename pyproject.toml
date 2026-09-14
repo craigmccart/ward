@@ -95,9 +95,9 @@ judge = [
 ward = "ward.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/sonofg0tham/ward"
-Issues = "https://github.com/sonofg0tham/ward/issues"
-Source = "https://github.com/sonofg0tham/ward"
+Homepage = "https://github.com/craigmccart/ward"
+Issues = "https://github.com/craigmccart/ward/issues"
+Source = "https://github.com/craigmccart/ward"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/ward"]

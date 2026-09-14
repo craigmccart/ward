@@ -37,7 +37,7 @@ def _rule_descriptor(finding: Finding) -> dict[str, object]:
         "fullDescription": {"text": finding.message},
         "helpUri": finding.references[0]
         if finding.references
-        else "https://github.com/sonofg0tham/ward",
+        else "https://github.com/craigmccart/ward",
         "help": {
             "text": finding.remediation or "Reject the metadata and review the source.",
         },
@@ -167,7 +167,7 @@ def render_sarif(report: ScanReport) -> str:
                     "driver": {
                         "name": "ward",
                         "version": _ward_version(),
-                        "informationUri": "https://github.com/sonofg0tham/ward",
+                        "informationUri": "https://github.com/craigmccart/ward",
                         "rules": rules,
                     }
                 },

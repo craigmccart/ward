@@ -1,10 +1,10 @@
 blank_issues_enabled: false
 contact_links:
   - name: Report a security vulnerability in Ward
-    url: https://github.com/Sonofg0tham/ward/security/advisories/new
+    url: https://github.com/craigmccart/ward/security/advisories/new
     about: >-
       Do not open a public issue for a security problem in Ward itself.
       Report it privately through GitHub Security Advisories.
   - name: Question or idea
-    url: https://github.com/Sonofg0tham/ward/discussions
+    url: https://github.com/craigmccart/ward/discussions
     about: Open-ended questions and feature ideas belong in Discussions.

@@ -6,7 +6,7 @@
 </picture>
 
 [![PyPI](https://img.shields.io/pypi/v/ward-scanner?style=flat-square&color=E4642A&label=PyPI)](https://pypi.org/project/ward-scanner/)
-[![CI](https://img.shields.io/github/actions/workflow/status/Sonofg0tham/ward/ci.yml?style=flat-square&label=CI)](https://github.com/Sonofg0tham/ward/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/Sonofg0tham/ward/ci.yml?style=flat-square&label=CI)](https://github.com/craigmccart/ward/actions/workflows/ci.yml)
 [![Licence](https://img.shields.io/github/license/Sonofg0tham/ward?style=flat-square&label=licence)](LICENSE)
 [![Marketplace](https://img.shields.io/badge/GitHub_Marketplace-Ward-E4642A?style=flat-square)](https://github.com/marketplace/actions/ward-pre-agent-metadata-scanner)
 
@@ -320,7 +320,7 @@ If you use the [pre-commit](https://pre-commit.com/) framework, drop
 this into your `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/sonofg0tham/ward
+- repo: https://github.com/craigmccart/ward
   rev: v0.3.2
   hooks:
     - id: ward-scan-local
@@ -593,7 +593,7 @@ makes no network calls at all.
 ## Development
 
 ```bash
-git clone https://github.com/sonofg0tham/ward
+git clone https://github.com/craigmccart/ward
 cd ward
 python -m venv .venv && source .venv/bin/activate    # or .venv\Scripts\activate on Windows
 pip install -e ".[dev]"

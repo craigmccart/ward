@@ -11,7 +11,7 @@ body:
 
 
         Before filing a miss, please check the known limitations in
-        [SECURITY.md](https://github.com/Sonofg0tham/ward/blob/main/SECURITY.md).
+        [SECURITY.md](https://github.com/craigmccart/ward/blob/main/SECURITY.md).
         Several classes are documented as out of reach for the regex tier
         (GCG suffixes, semantic paraphrases, payload splitting) and the
         optional LLM judge tier is the intended answer for those.

@@ -1391,7 +1391,7 @@ def update_rules() -> None:
         "at a directory\nof .yaml/.yml rule files:\n"
         "  ward scan-local --rule-pack ./security/ward-rules\n\n"
         "Out-of-band community rule-pack distribution is not implemented yet - "
-        "track it at\n  https://github.com/sonofg0tham/ward/issues"
+        "track it at\n  https://github.com/craigmccart/ward/issues"
     )
 
 

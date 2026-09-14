@@ -99,7 +99,7 @@ For several of the semantic classes, the optional judge tier is the intended ans
 
 ## Try it
 
-Ward is on PyPI (`pip install ward-scanner`), and the source is public at [github.com/Sonofg0tham/ward](https://github.com/Sonofg0tham/ward).
+Ward is on PyPI (`pip install ward-scanner`), and the source is public at [github.com/craigmccart/ward](https://github.com/craigmccart/ward).
 
 The GitHub Action is the fastest way to see it work, and it is listed on the [GitHub Marketplace](https://github.com/marketplace/actions/ward-pre-agent-metadata-scanner):
 

@@ -1,7 +1,7 @@
 # Pre-commit framework hooks for Ward.
 # Consumers add a block like this to their own .pre-commit-config.yaml:
 #
-#   - repo: https://github.com/sonofg0tham/ward
+#   - repo: https://github.com/craigmccart/ward
 #     rev: v0.3.2
 #     hooks:
 #       - id: ward-scan-local

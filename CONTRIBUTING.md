@@ -9,7 +9,7 @@ false-positive reports.
 ## Before you start
 
 - **Security issues do not go in the issue tracker.** Report them privately
-  via [GitHub Security Advisories](https://github.com/Sonofg0tham/ward/security/advisories/new).
+  via [GitHub Security Advisories](https://github.com/craigmccart/ward/security/advisories/new).
   See [SECURITY.md](SECURITY.md).
 - For anything larger than a bug fix, open an issue first so we can agree
   the shape before you write code.
@@ -17,7 +17,7 @@ false-positive reports.
 ## Setup
 
 ```bash
-git clone https://github.com/sonofg0tham/ward
+git clone https://github.com/craigmccart/ward
 cd ward
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate

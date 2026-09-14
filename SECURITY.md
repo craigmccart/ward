@@ -330,7 +330,7 @@ Ward is a single-maintainer side project, not a funded product. This section
 says what that actually means so you can decide how to spend your time.
 
 **Preferred route.** Report privately via
-[GitHub Security Advisories](https://github.com/Sonofg0tham/ward/security/advisories/new).
+[GitHub Security Advisories](https://github.com/craigmccart/ward/security/advisories/new).
 Please include a description, steps to reproduce, the affected version, and
 any suggested remediation.
 

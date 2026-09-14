@@ -59,7 +59,7 @@ DEMOS: tuple[DemoScenario, ...] = (
             "interaction in the repo. The ambient-code disclosure (Feb "
             "2026) is the canonical example."
         ),
-        references=("https://github.com/Sonofg0tham/ward#why-this-exists",),
+        references=("https://github.com/craigmccart/ward#why-this-exists",),
     ),
     DemoScenario(
         name="multilingual-evasion",
