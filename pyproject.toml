@@ -17,7 +17,7 @@
 # 2.5 is a perfectly valid metadata version. The constraint is twine's, not
 # ours, so raise this bound once the publish action ships a twine that accepts
 # it - the guard in .github/workflows/release.yml will say so.
-requires = ["hatchling>=1.27,<1.32"]
+requires = ["hatchling>=1.27,<1.33"]
 build-backend = "hatchling.build"
 
 [project]
